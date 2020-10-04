@@ -1,0 +1,17 @@
+secretkey = "JustWriteSomethingWhatYouLike"
+lang = "en"
+address = ":9500"
+
+[sql]
+sqlite3 = true
+addr = "./guora.db"
+
+[redis]
+addr = "localhost:6379"
+password = 123456.0
+db = 0.0
+
+[admin]
+name = "Guora Robot (管理员)"
+mail = "admin@localhost"
+password = "mypassword"
