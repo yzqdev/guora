@@ -2,8 +2,7 @@ package authorization
 
 import (
 	"errors"
-
-	"github.com/dgrijalva/jwt-go"
+	"github.com/golang-jwt/jwt"
 	"github.com/meloalright/guora/conf"
 )
 

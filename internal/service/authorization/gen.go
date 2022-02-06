@@ -1,10 +1,10 @@
 package authorization
 
 import (
+	"github.com/golang-jwt/jwt"
 	"github.com/meloalright/guora/conf"
 	"time"
 
-	"github.com/dgrijalva/jwt-go"
 	"github.com/meloalright/guora/internal/model"
 	"net/url"
 	"strings"
